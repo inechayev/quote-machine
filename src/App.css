@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  height:100vh;
+}
+.quote-container{
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  border-radius: 10px;
+  height: 30%;
+  width: 50%;
+  padding:1%;
+  box-shadow: 30px -10px 20px rgb(190, 179, 179);
+}
+#text {
+  flex-grow: 2;
+  font-size: large;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 0;
+  
+}
+#author {
+  display:flex;
+  flex-grow: 1;
+  align-self: center;
+  font-weight: bold;
+  font-size: large;
+  text-align: right;
+  margin:0;
+}
+
+#next-quote {
+  display:flex;
+  align-self: flex-end;
+  justify-self: flex-end;
+  justify-content: center;
+  flex-grow: 1;
+  border-radius: 10px;
+  width: 25%;
+
+}
